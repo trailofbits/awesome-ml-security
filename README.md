@@ -8,7 +8,7 @@ Membership attacks, model inversion attacks, model extraction, adversarial pertu
 
 #### Confidentiality
 Reconstruction (model inversion; attribute inference; gradient and information leakage), theft of data, Membership inference and reidentification of data, Model extraction (model theft), property inference (leakage of dataset properties), etc.
-* ([awesome-ml-privacy-attacks](https://github.com/stratosphereips/awesome-ml-privacy-attacks))
+* [awesome-ml-privacy-attacks](https://github.com/stratosphereips/awesome-ml-privacy-attacks)
 
 #### Integrity 
 Backdoors/neural trojans (same as for non-ML systems), adversarial evasion (perturbation of an input to evade a certain classification or output), data poisoning and ordering (providing malicious data or changing the order of the data flow into an ML model). 
