@@ -1,4 +1,30 @@
 # Awesome-ML-Security
+
+A curated list of awesome machine learning security references, guidance, tools, and more.
+
+**Table of Contents**
+
+- [Awesome-ML-Security](#awesome-ml-security)
+  - [Relevant Work, Standards, Literature](#relevant-work-standards-literature)
+    - [CIA of the model](#cia-of-the-model)
+      - [Confidentiality](#confidentiality)
+      - [Integrity](#integrity)
+      - [Availability](#availability)
+    - [Degraded model performance](#degraded-model-performance)
+    - [ML-Ops](#ml-ops)
+    - [AI’s effect on attacks/security elsewhere](#ais-effect-on-attackssecurity-elsewhere)
+  - [Regulatory Actions](#regulatory-actions)
+    - [US](#us)
+    - [EU](#eu)
+  - [Safety Standards](#safety-standards)
+  - [Taxonomies and frameworks](#taxonomies-and-frameworks)
+  - [Security tools and techniques](#security-tools-and-techniques)
+    - [API probing](#api-probing)
+    - [Model backdoors](#model-backdoors)
+  - [Background information](#background-information)
+  - [Notable Incidents](#notable-incidents)
+  - [Notable Harms](#notable-harms)
+
 ## Relevant Work, Standards, Literature
 
 ### CIA of the model
