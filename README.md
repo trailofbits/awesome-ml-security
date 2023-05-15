@@ -107,6 +107,7 @@ Backdoors/neural trojans (same as for non-ML systems), adversarial evasion (pert
   * [From RAIL to Open RAIL: Topologies of RAIL Licenses](https://www.licenses.ai/blog/2022/8/18/naming-convention-of-responsible-ai-licenses)
   * [Hugging Face - OpenRAIL ](https://huggingface.co/blog/open_rail)
   * [Hugging Face - AI Release Models](https://arxiv.org/abs/2302.04844)
+  * [Open LLMs](https://github.com/eugeneyan/open-llms)
 
 ## Notable Incidents
 | **Incident** | **Type** | **Loss** |
