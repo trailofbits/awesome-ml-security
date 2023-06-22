@@ -12,7 +12,7 @@ A curated list of awesome machine learning security references, guidance, tools,
       - [Availability](#availability)
     - [Degraded model performance](#degraded-model-performance)
     - [ML-Ops](#ml-ops)
-    - [AI’s effect on attacks/security elsewhere](#ais-effect-on-attackssecurity-elsewhere)
+    - [AI’s effect on attacks/security elsewhere](#ais-effect-on-attackssecurity)
   - [Regulatory Actions](#regulatory-actions)
     - [US](#us)
     - [EU](#eu)
@@ -27,24 +27,26 @@ A curated list of awesome machine learning security references, guidance, tools,
 
 ## Relevant Work, Standards, Literature
 
-### CIA of the model
-Membership attacks, model inversion attacks, model extraction, adversarial perturbation, prompt injections, etc.
+### Broad resources
 * [Towards the Science of Security and Privacy in Machine Learning](https://arxiv.org/abs/1611.03814)
 * [SoK: Machine Learning Governance](https://arxiv.org/abs/2109.10870)
 * [Not with a Bug, But with a Sticker: Attacks on Machine Learning Systems and What To Do About Them](https://www.goodreads.com/book/show/125075266-not-with-a-bug-but-with-a-sticker)
 
-#### Confidentiality
+### Confidentiality
 Reconstruction (model inversion; attribute inference; gradient and information leakage), theft of data, Membership inference and reidentification of data, Model extraction (model theft), property inference (leakage of dataset properties), etc.
 * [awesome-ml-privacy-attacks](https://github.com/stratosphereips/awesome-ml-privacy-attacks)
 
-#### Integrity 
-Backdoors/neural trojans (same as for non-ML systems), adversarial evasion (perturbation of an input to evade a certain classification or output), data poisoning and ordering (providing malicious data or changing the order of the data flow into an ML model). 
+### Integrity 
+Backdoors/neural trojans (same as for non-ML systems), adversarial evasion (perturbation of input to evade a certain classification or output), data poisoning and ordering (providing malicious data or changing the order of the data flow into an ML model). 
 * [Manipulating SGD with Data Ordering Attacks](https://arxiv.org/abs/2104.09667)
 * [Adversarial reprogramming](https://arxiv.org/abs/1806.11146) - repurposing a model for a different task than its original intended purpose 
-* [Model spinning attacks](https://arxiv.org/abs/2107.10443) (meta backdoors) - forcing a model to produce output that adheres to a meta task (for ex. making a general LLM produce propaganda)
-* Prompt injection (not really an attack) - craft an input that makes a model bypass its current “safety” measures
+* [Model spinning attacks](https://arxiv.org/abs/2107.10443) - force a model to produce output that adheres to a meta task (for ex. making a general LLM produce propaganda)
+* [Poisoning Web-Scale Training Datasets is Practical](https://arxiv.org/abs/2302.10149)
+* [Instructions as Backdoors: Backdoor Vulnerabilities of Instruction Tuning for Large Language Models](https://arxiv.org/abs/2305.14710)
+* [Planting Undetectable Backdoors in Machine Learning Models](https://arxiv.org/abs/2204.06974)
+* Prompt injection - (not really an attack) craft an input that makes a model bypass its current “safety” measures
 
-#### Availability
+### Availability
 * [Energy-latency attacks](https://arxiv.org/abs/2006.03463) - denial of service for neural networks 
 
 ### Degraded model performance
@@ -60,13 +62,15 @@ Backdoors/neural trojans (same as for non-ML systems), adversarial evasion (pert
 * [Weaponizing Machine Learning Models with Ransomware](https://hiddenlayer.com/research/weaponizing-machine-learning-models-with-ransomware/) (and [Machine Learning Threat Roundup](https://hiddenlayer.com/research/machine-learning-threat-roundup/)) 
 * [Hacking AI: System and Cloud Takeover via MLflow Exploit](https://protectai.com/blog/hacking-ai-system-takeover-exploit-in-mlflow) 
 
-### AI’s effect on attacks/security elsewhere
+### AI’s effect on attacks/security
 * [Lost at C: A User Study on the Security Implications of Large Language Model Code Assistants](https://arxiv.org/abs/2208.09727)
+* [A Hazard Analysis Framework for Code Synthesis Large Language Models](https://arxiv.org/abs/2207.14157)
 * [Examining Zero-Shot Vulnerability Repair with Large Language Models](https://arxiv.org/pdf/2112.02125.pdf) 
 * [Do Users Write More Insecure Code with AI Assistants?](https://arxiv.org/pdf/2211.03622.pdf) 
 * [Learned Systems Security](https://arxiv.org/abs/2212.10318) 
 * [Beyond the Hype: A Real-World Evaluation of the Impact and Cost of Machine Learning-Based Malware Detection](https://arxiv.org/abs/2012.09214)
 * [Data-Driven Offense](https://player.vimeo.com/video/133292422) from Infiltrate 2015
+* [Do you still need a manual smart contract audit?](https://arxiv.org/pdf/2306.12338.pdf)
 
 ## Regulatory Actions
 
@@ -78,6 +82,7 @@ Backdoors/neural trojans (same as for non-ML systems), adversarial evasion (pert
 
 ### EU
 - [The Artificial Intelligence Act](https://artificialintelligenceact.eu/) (proposed)
+  - [Do Foundation Model Providers Comply with the Draft EU AI Act?](https://crfm.stanford.edu/2023/06/15/eu-ai-act.html)
 
 ## Safety Standards
 * [Toward Comprehensive Risk Assessments and Assurance of AI-Based Systems](https://blog.trailofbits.com/2023/03/14/ai-security-safety-audit-assurance-heidy-khlaaf-odd/)
