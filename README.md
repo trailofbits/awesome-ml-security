@@ -21,6 +21,7 @@ A curated list of awesome machine learning security references, guidance, tools,
   - [Security tools and techniques](#security-tools-and-techniques)
     - [API probing](#api-probing)
     - [Model backdoors](#model-backdoors)
+    - [AI's impact on security tools and techniques](#ais-impact-on-security-tools-and-techniques)
   - [Background information](#background-information)
   - [Notable Incidents](#notable-incidents)
   - [Notable Harms](#notable-harms)
@@ -102,6 +103,11 @@ Backdoors/neural trojans (same as for non-ML systems), adversarial evasion (pert
 * [Fickling](https://github.com/trailofbits/fickling): a decompiler, static analyzer, and bytecode rewriter for Python pickle files; injects backdoors into ML model files
 * [Semgrep rules for ML](https://blog.trailofbits.com/2022/10/03/semgrep-maching-learning-static-analysis/) 
 * [API Rate Limiting](https://platform.openai.com/docs/guides/rate-limits/overview)
+
+### AI's impact on security tools and techniques 
+* [Awesome Large Language Model Tools for Cybersecurity Research](https://github.com/tenable/awesome-llm-cybersecurity-tools)
+* [EscalateGPT](https://github.com/tenable/EscalateGPT)
+* [BurpGPT](https://github.com/tenable/Burp-extension-for-GPT#burpgpt)
 
 ## Background information
 * [Machine Learning Glossary | Google Developers](https://developers.google.com/machine-learning/glossary)
