@@ -64,14 +64,17 @@ Backdoors/neural trojans (same as for non-ML systems), adversarial evasion (pert
 * [DeepPayload: Black-box Backdoor Attack on Deep Learning Models through Neural Payload Injection](https://arxiv.org/abs/2101.06896) 
 * [Weaponizing Machine Learning Models with Ransomware](https://hiddenlayer.com/research/weaponizing-machine-learning-models-with-ransomware/) (and [Machine Learning Threat Roundup](https://hiddenlayer.com/research/machine-learning-threat-roundup/)) 
 * [Hacking AI: System and Cloud Takeover via MLflow Exploit](https://protectai.com/blog/hacking-ai-system-takeover-exploit-in-mlflow) 
+* [Trail of Bits's Audit of the Safetensors Library](https://github.com/trailofbits/publications/blob/master/reviews/2023-03-eleutherai-huggingface-safetensors-securityreview.pdf)
 
 ### AI’s effect on attacks/security elsewhere
+* [How AI will affect cybersecurity: What we told the CFTC](https://blog.trailofbits.com/2023/07/31/how-ai-will-affect-cybersecurity-what-we-told-the-cftc/)
 * [Lost at C: A User Study on the Security Implications of Large Language Model Code Assistants](https://arxiv.org/abs/2208.09727)
 * [Examining Zero-Shot Vulnerability Repair with Large Language Models](https://arxiv.org/pdf/2112.02125.pdf) 
 * [Do Users Write More Insecure Code with AI Assistants?](https://arxiv.org/pdf/2211.03622.pdf) 
 * [Learned Systems Security](https://arxiv.org/abs/2212.10318) 
 * [Beyond the Hype: A Real-World Evaluation of the Impact and Cost of Machine Learning-Based Malware Detection](https://arxiv.org/abs/2012.09214)
 * [Data-Driven Offense](https://player.vimeo.com/video/133292422) from Infiltrate 2015
+* [Codex (and GPT-4) can’t beat humans on smart contract audits](https://blog.trailofbits.com/2023/03/22/codex-and-gpt4-cant-beat-humans-on-smart-contract-audits/)
   
 #### Self-driving cars 
 * [Driving to Safety: How Many Miles of Driving Would It Take to Demonstrate Autonomous Vehicle Reliability?](https://www.rand.org/pubs/research_reports/RR1478.html)
