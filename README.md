@@ -111,6 +111,7 @@ Backdoors/neural trojans (same as for non-ML systems), adversarial evasion (pert
   * [Hugging Face - OpenRAIL ](https://huggingface.co/blog/open_rail)
   * [Hugging Face - AI Release Models](https://arxiv.org/abs/2302.04844)
   * [Open LLMs](https://github.com/eugeneyan/open-llms)
+  * [Prompt Engineering Guide](https://github.com/trailofbits/awesome-ml-security/blob/main/prompt-engineering.md)
 
 ## Notable Incidents
 | **Incident** | **Type** | **Loss** |
