@@ -13,6 +13,7 @@ A curated list of awesome machine learning security references, guidance, tools,
     - [Degraded model performance](#degraded-model-performance)
     - [ML-Ops](#ml-ops)
     - [AI’s effect on attacks/security elsewhere](#ais-effect-on-attackssecurity-elsewhere)
+      - [Self-Driving Cars](#self-driving-cars)
   - [Regulatory Actions](#regulatory-actions)
     - [US](#us)
     - [EU](#eu)
@@ -67,6 +68,9 @@ Backdoors/neural trojans (same as for non-ML systems), adversarial evasion (pert
 * [Learned Systems Security](https://arxiv.org/abs/2212.10318) 
 * [Beyond the Hype: A Real-World Evaluation of the Impact and Cost of Machine Learning-Based Malware Detection](https://arxiv.org/abs/2012.09214)
 * [Data-Driven Offense](https://player.vimeo.com/video/133292422) from Infiltrate 2015
+  
+#### Self-Driving Cars 
+* [Driving to Safety: How Many Miles of Driving Would It Take to Demonstrate Autonomous Vehicle Reliability?](https://www.rand.org/pubs/research_reports/RR1478.html)
 
 ## Regulatory Actions
 
