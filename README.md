@@ -13,6 +13,7 @@ A curated list of awesome machine learning security references, guidance, tools,
     - [Degraded model performance](#degraded-model-performance)
     - [ML-Ops](#ml-ops)
     - [AI’s effect on attacks/security elsewhere](#ais-effect-on-attackssecurity-elsewhere)
+      - [Self-driving cars](#self-driving-cars)
   - [Regulatory Actions](#regulatory-actions)
     - [US](#us)
     - [EU](#eu)
@@ -21,6 +22,7 @@ A curated list of awesome machine learning security references, guidance, tools,
   - [Security tools and techniques](#security-tools-and-techniques)
     - [API probing](#api-probing)
     - [Model backdoors](#model-backdoors)
+  - [DeepFakes, disinformation, and abuse](#deepfakes-disinformation-and-abuse)
     - [AI's impact on security tools and techniques](#ais-impact-on-security-tools-and-techniques)
   - [Background information](#background-information)
   - [Notable Incidents](#notable-incidents)
@@ -33,6 +35,7 @@ Membership attacks, model inversion attacks, model extraction, adversarial pertu
 * [Towards the Science of Security and Privacy in Machine Learning](https://arxiv.org/abs/1611.03814)
 * [SoK: Machine Learning Governance](https://arxiv.org/abs/2109.10870)
 * [Not with a Bug, But with a Sticker: Attacks on Machine Learning Systems and What To Do About Them](https://www.goodreads.com/book/show/125075266-not-with-a-bug-but-with-a-sticker)
+* [On the Impossible Safety of Large AI Models](https://arxiv.org/abs/2209.15259)
 
 #### Confidentiality
 Reconstruction (model inversion; attribute inference; gradient and information leakage), theft of data, Membership inference and reidentification of data, Model extraction (model theft), property inference (leakage of dataset properties), etc.
@@ -43,6 +46,7 @@ Backdoors/neural trojans (same as for non-ML systems), adversarial evasion (pert
 * [Manipulating SGD with Data Ordering Attacks](https://arxiv.org/abs/2104.09667)
 * [Adversarial reprogramming](https://arxiv.org/abs/1806.11146) - repurposing a model for a different task than its original intended purpose 
 * [Model spinning attacks](https://arxiv.org/abs/2107.10443) (meta backdoors) - forcing a model to produce output that adheres to a meta task (for ex. making a general LLM produce propaganda)
+* [Sleeper agent](https://huggingface.co/yifever/sleeper-agent)
 * Prompt injection (not really an attack) - craft an input that makes a model bypass its current “safety” measures
 
 #### Availability
@@ -68,6 +72,9 @@ Backdoors/neural trojans (same as for non-ML systems), adversarial evasion (pert
 * [Learned Systems Security](https://arxiv.org/abs/2212.10318) 
 * [Beyond the Hype: A Real-World Evaluation of the Impact and Cost of Machine Learning-Based Malware Detection](https://arxiv.org/abs/2012.09214)
 * [Data-Driven Offense](https://player.vimeo.com/video/133292422) from Infiltrate 2015
+  
+#### Self-Driving Cars 
+* [Driving to Safety: How Many Miles of Driving Would It Take to Demonstrate Autonomous Vehicle Reliability?](https://www.rand.org/pubs/research_reports/RR1478.html)
 
 ## Regulatory Actions
 
@@ -118,6 +125,10 @@ Backdoors/neural trojans (same as for non-ML systems), adversarial evasion (pert
   * [Hugging Face - AI Release Models](https://arxiv.org/abs/2302.04844)
   * [Open LLMs](https://github.com/eugeneyan/open-llms)
   * [Prompt Engineering Guide](https://github.com/trailofbits/awesome-ml-security/blob/main/prompt-engineering.md)
+
+## DeepFakes, Disinformation, and Abuse
+* [How to Prepare for the Deluge of Generative AI on Social Media](https://knightcolumbia.org/content/how-to-prepare-for-the-deluge-of-generative-ai-on-social-media)
+* [Generative ML and CSAM: Implications and Mitigations](https://purl.stanford.edu/jv206yg3793)
 
 ## Notable Incidents
 | **Incident** | **Type** | **Loss** |
