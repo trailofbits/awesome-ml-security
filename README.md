@@ -33,6 +33,7 @@ Membership attacks, model inversion attacks, model extraction, adversarial pertu
 * [Towards the Science of Security and Privacy in Machine Learning](https://arxiv.org/abs/1611.03814)
 * [SoK: Machine Learning Governance](https://arxiv.org/abs/2109.10870)
 * [Not with a Bug, But with a Sticker: Attacks on Machine Learning Systems and What To Do About Them](https://www.goodreads.com/book/show/125075266-not-with-a-bug-but-with-a-sticker)
+* [On the Impossible Safety of Large AI Models](https://arxiv.org/abs/2209.15259)
 
 #### Confidentiality
 Reconstruction (model inversion; attribute inference; gradient and information leakage), theft of data, Membership inference and reidentification of data, Model extraction (model theft), property inference (leakage of dataset properties), etc.
