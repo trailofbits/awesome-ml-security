@@ -45,6 +45,7 @@ Backdoors/neural trojans (same as for non-ML systems), adversarial evasion (pert
 * [Manipulating SGD with Data Ordering Attacks](https://arxiv.org/abs/2104.09667)
 * [Adversarial reprogramming](https://arxiv.org/abs/1806.11146) - repurposing a model for a different task than its original intended purpose 
 * [Model spinning attacks](https://arxiv.org/abs/2107.10443) (meta backdoors) - forcing a model to produce output that adheres to a meta task (for ex. making a general LLM produce propaganda)
+* [Sleeper agent](https://huggingface.co/yifever/sleeper-agent)
 * Prompt injection (not really an attack) - craft an input that makes a model bypass its current “safety” measures
 
 #### Availability
