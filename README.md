@@ -13,7 +13,7 @@ A curated list of awesome machine learning security references, guidance, tools,
     - [Degraded model performance](#degraded-model-performance)
     - [ML-Ops](#ml-ops)
     - [AI’s effect on attacks/security elsewhere](#ais-effect-on-attackssecurity-elsewhere)
-      - [Self-Driving Cars](#self-driving-cars)
+      - [Self-driving cars](#self-driving-cars)
   - [Regulatory Actions](#regulatory-actions)
     - [US](#us)
     - [EU](#eu)
@@ -22,6 +22,7 @@ A curated list of awesome machine learning security references, guidance, tools,
   - [Security tools and techniques](#security-tools-and-techniques)
     - [API probing](#api-probing)
     - [Model backdoors](#model-backdoors)
+  - [DeepFakes, disinformation, and abuse](#deepfakes-disinformation-and-abuse)
   - [Background information](#background-information)
   - [Notable Incidents](#notable-incidents)
   - [Notable Harms](#notable-harms)
@@ -117,6 +118,10 @@ Backdoors/neural trojans (same as for non-ML systems), adversarial evasion (pert
   * [Hugging Face - AI Release Models](https://arxiv.org/abs/2302.04844)
   * [Open LLMs](https://github.com/eugeneyan/open-llms)
   * [Prompt Engineering Guide](https://github.com/trailofbits/awesome-ml-security/blob/main/prompt-engineering.md)
+
+## DeepFakes, Disinformation, and Abuse
+* [How to Prepare for the Deluge of Generative AI on Social Media](https://knightcolumbia.org/content/how-to-prepare-for-the-deluge-of-generative-ai-on-social-media)
+* [Generative ML and CSAM: Implications and Mitigations](https://purl.stanford.edu/jv206yg3793)
 
 ## Notable Incidents
 | **Incident** | **Type** | **Loss** |
