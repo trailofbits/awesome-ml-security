@@ -5,7 +5,7 @@ A curated list of awesome machine learning security references, guidance, tools,
 **Table of Contents**
 
 - [Awesome-ML-Security](#awesome-ml-security)
-  - [Relevant Work, Standards, Literature](#relevant-work-standards-literature)
+  - [Relevant work, standards, literature](#relevant-work-standards-literature)
     - [CIA of the model](#cia-of-the-model)
       - [Confidentiality](#confidentiality)
       - [Integrity](#integrity)
@@ -14,10 +14,10 @@ A curated list of awesome machine learning security references, guidance, tools,
     - [ML-Ops](#ml-ops)
     - [AI’s effect on attacks/security elsewhere](#ais-effect-on-attackssecurity-elsewhere)
       - [Self-driving cars](#self-driving-cars)
-  - [Regulatory Actions](#regulatory-actions)
+  - [Regulatory actions](#regulatory-actions)
     - [US](#us)
     - [EU](#eu)
-  - [Safety Standards](#safety-standards)
+  - [Safety standards](#safety-standards)
   - [Taxonomies and frameworks](#taxonomies-and-frameworks)
   - [Security tools and techniques](#security-tools-and-techniques)
     - [API probing](#api-probing)
@@ -25,10 +25,10 @@ A curated list of awesome machine learning security references, guidance, tools,
   - [DeepFakes, disinformation, and abuse](#deepfakes-disinformation-and-abuse)
     - [AI's impact on security tools and techniques](#ais-impact-on-security-tools-and-techniques)
   - [Background information](#background-information)
-  - [Notable Incidents](#notable-incidents)
-  - [Notable Harms](#notable-harms)
+  - [Notable incidents](#notable-incidents)
+  - [Notable harms](#notable-harms)
 
-## Relevant Work, Standards, Literature
+## Relevant work, standards, literature
 
 ### CIA of the model
 Membership attacks, model inversion attacks, model extraction, adversarial perturbation, prompt injections, etc.
@@ -73,10 +73,10 @@ Backdoors/neural trojans (same as for non-ML systems), adversarial evasion (pert
 * [Beyond the Hype: A Real-World Evaluation of the Impact and Cost of Machine Learning-Based Malware Detection](https://arxiv.org/abs/2012.09214)
 * [Data-Driven Offense](https://player.vimeo.com/video/133292422) from Infiltrate 2015
   
-#### Self-Driving Cars 
+#### Self-driving cars 
 * [Driving to Safety: How Many Miles of Driving Would It Take to Demonstrate Autonomous Vehicle Reliability?](https://www.rand.org/pubs/research_reports/RR1478.html)
 
-## Regulatory Actions
+## Regulatory actions
 
 ### US
 * [FTC: Keep your AI claims in check](https://www.ftc.gov/business-guidance/blog/2023/02/keep-your-ai-claims-check)
@@ -87,7 +87,7 @@ Backdoors/neural trojans (same as for non-ML systems), adversarial evasion (pert
 ### EU
 - [The Artificial Intelligence Act](https://artificialintelligenceact.eu/) (proposed)
 
-## Safety Standards
+## Safety standards
 * [Toward Comprehensive Risk Assessments and Assurance of AI-Based Systems](https://blog.trailofbits.com/2023/03/14/ai-security-safety-audit-assurance-heidy-khlaaf-odd/)
 * ISO/IEC 42001 — Artificial intelligence — Management system
 * ISO/IEC 22989 — Artificial intelligence — Concepts and terminology
@@ -126,11 +126,11 @@ Backdoors/neural trojans (same as for non-ML systems), adversarial evasion (pert
   * [Open LLMs](https://github.com/eugeneyan/open-llms)
   * [Prompt Engineering Guide](https://github.com/trailofbits/awesome-ml-security/blob/main/prompt-engineering.md)
 
-## DeepFakes, Disinformation, and Abuse
+## DeepFakes, disinformation, and abuse
 * [How to Prepare for the Deluge of Generative AI on Social Media](https://knightcolumbia.org/content/how-to-prepare-for-the-deluge-of-generative-ai-on-social-media)
 * [Generative ML and CSAM: Implications and Mitigations](https://purl.stanford.edu/jv206yg3793)
 
-## Notable Incidents
+## Notable incidents
 | **Incident** | **Type** | **Loss** |
 | ----- | ----- | ----- |
 | Tay | Poor training set selection | Reputational |
@@ -144,7 +144,7 @@ Backdoors/neural trojans (same as for non-ML systems), adversarial evasion (pert
 | [OpenAI- ChatGPT's new Browser SDK was using some relatively recently known-vulnerable code (specifically MinIO CVE-2023-28432)](https://twitter.com/Andrew___Morris/status/1639325397241278464) | [Security vulnerability resulting in information disclosure of all environment variables, including MINIO_SECRET_KEY and MINIO_ROOT_PASSWORD.](https://www.greynoise.io/blog/openai-minio-and-why-you-should-always-use-docker-cli-scan-to-keep-your-supply-chain-clean) | Reputational              |
 | ML Flow | [Protect AI tested the security of MLflow and found a combined Local File Inclusion/Remote File Inclusion vulnerability which can lead to a complete system or cloud provider takeover.](https://protectai.com/blog/hacking-ai-system-takeover-exploit-in-mlflow) | Monetary and Reputational |
 
-## Notable Harms
+## Notable harms
 | **Incident** | **Type** | **Loss** |
 | ----- | ----- | ----- |
 | Google Photos Gorillas | Algorithmic bias | Reputational |
