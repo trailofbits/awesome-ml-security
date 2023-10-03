@@ -1,10 +1,37 @@
 # Awesome-ML-Security
+
+A curated list of awesome machine learning security references, guidance, tools, and more.
+
+**Table of Contents**
+
+- [Awesome-ML-Security](#awesome-ml-security)
+  - [Relevant Work, Standards, Literature](#relevant-work-standards-literature)
+    - [CIA of the model](#cia-of-the-model)
+      - [Confidentiality](#confidentiality)
+      - [Integrity](#integrity)
+      - [Availability](#availability)
+    - [Degraded model performance](#degraded-model-performance)
+    - [ML-Ops](#ml-ops)
+    - [AI’s effect on attacks/security elsewhere](#ais-effect-on-attackssecurity-elsewhere)
+  - [Regulatory Actions](#regulatory-actions)
+    - [US](#us)
+    - [EU](#eu)
+  - [Safety Standards](#safety-standards)
+  - [Taxonomies and frameworks](#taxonomies-and-frameworks)
+  - [Security tools and techniques](#security-tools-and-techniques)
+    - [API probing](#api-probing)
+    - [Model backdoors](#model-backdoors)
+  - [Background information](#background-information)
+  - [Notable Incidents](#notable-incidents)
+  - [Notable Harms](#notable-harms)
+
 ## Relevant Work, Standards, Literature
 
 ### CIA of the model
 Membership attacks, model inversion attacks, model extraction, adversarial perturbation, prompt injections, etc.
 * [Towards the Science of Security and Privacy in Machine Learning](https://arxiv.org/abs/1611.03814)
 * [SoK: Machine Learning Governance](https://arxiv.org/abs/2109.10870)
+* [Not with a Bug, But with a Sticker: Attacks on Machine Learning Systems and What To Do About Them](https://www.goodreads.com/book/show/125075266-not-with-a-bug-but-with-a-sticker)
 
 #### Confidentiality
 Reconstruction (model inversion; attribute inference; gradient and information leakage), theft of data, Membership inference and reidentification of data, Model extraction (model theft), property inference (leakage of dataset properties), etc.
@@ -38,7 +65,8 @@ Backdoors/neural trojans (same as for non-ML systems), adversarial evasion (pert
 * [Examining Zero-Shot Vulnerability Repair with Large Language Models](https://arxiv.org/pdf/2112.02125.pdf) 
 * [Do Users Write More Insecure Code with AI Assistants?](https://arxiv.org/pdf/2211.03622.pdf) 
 * [Learned Systems Security](https://arxiv.org/abs/2212.10318) 
-* [Beyond the Hype: A Real-World Evaluation of the Impact and Cost of Machine Learning-Based Malware Detection](https://arxiv.org/abs/2012.09214) 
+* [Beyond the Hype: A Real-World Evaluation of the Impact and Cost of Machine Learning-Based Malware Detection](https://arxiv.org/abs/2012.09214)
+* [Data-Driven Offense](https://player.vimeo.com/video/133292422) from Infiltrate 2015
 
 ## Regulatory Actions
 
@@ -76,12 +104,14 @@ Backdoors/neural trojans (same as for non-ML systems), adversarial evasion (pert
 * [API Rate Limiting](https://platform.openai.com/docs/guides/rate-limits/overview)
 
 ## Background information
-* [Machine Learning Glossary | Google Developers](https://developers.google.com/machine-learning/glossary) 
+* [Machine Learning Glossary | Google Developers](https://developers.google.com/machine-learning/glossary)
+* [Hugging Face NLP course](https://huggingface.co/learn/nlp-course/chapter1/1)
 * Licensing:
   * [From RAIL to Open RAIL: Topologies of RAIL Licenses](https://www.licenses.ai/blog/2022/8/18/naming-convention-of-responsible-ai-licenses)
   * [Hugging Face - OpenRAIL ](https://huggingface.co/blog/open_rail)
   * [Hugging Face - AI Release Models](https://arxiv.org/abs/2302.04844)
-* [Prompt Engineering Guide](https://github.com/trailofbits/awesome-ml-security/blob/main/prompt-engineering.md)
+  * [Open LLMs](https://github.com/eugeneyan/open-llms)
+  * [Prompt Engineering Guide](https://github.com/trailofbits/awesome-ml-security/blob/main/prompt-engineering.md)
 
 ## Notable Incidents
 | **Incident** | **Type** | **Loss** |
@@ -91,7 +121,7 @@ Backdoors/neural trojans (same as for non-ML systems), adversarial evasion (pert
 | [PyTorch Compromise](https://pytorch.org/blog/compromised-nightly-dependency/) | Dependency confusion |
 | [Proofpoint - CVE-2019-20634](https://github.com/moohax/Proof-Pudding) | Model extraction |
 | [ClearviewAI Leak](https://techcrunch.com/2020/04/16/clearview-source-code-lapse/) | Source Code misconfiguration |
-| [Kubeflow Crypto-mining attack ](https://sysdig.com/blog/crypto-mining-kubeflow-tensorflow-falco/) | System misconfiguration |                           |
+| [Kubeflow Crypto-mining attack ](https://sysdig.com/blog/crypto-mining-kubeflow-tensorflow-falco/) | System misconfiguration |
 | [OpenAI - takeover someone's account, view their chat history, and access their billing information ](https://twitter.com/naglinagli/status/1639343866313601024) | Web Cache Deception | Reputational |
 | [OpenAI- first message of a newly-created conversation was visible in someone else’s chat history](https://openai.com/blog/march-20-chatgpt-outage) | [Cache - Redis Async I/O](https://github.com/redis/redis-py/issues/2624) | Reputational |
 | [OpenAI- ChatGPT's new Browser SDK was using some relatively recently known-vulnerable code (specifically MinIO CVE-2023-28432)](https://twitter.com/Andrew___Morris/status/1639325397241278464) | [Security vulnerability resulting in information disclosure of all environment variables, including MINIO_SECRET_KEY and MINIO_ROOT_PASSWORD.](https://www.greynoise.io/blog/openai-minio-and-why-you-should-always-use-docker-cli-scan-to-keep-your-supply-chain-clean) | Reputational              |
