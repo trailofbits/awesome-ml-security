@@ -114,7 +114,8 @@ Backdoors/neural trojans (same as for non-ML systems), adversarial evasion (pert
 ## Taxonomies and frameworks
 * [NIST AI 100-2e2023](https://csrc.nist.gov/publications/detail/white-paper/2023/03/08/adversarial-machine-learning-taxonomy-and-terminology/draft)
 * [MITRE ATLAS](https://atlas.mitre.org/) 
-* [AI Incident Database](https://incidentdatabase.ai/) 
+* [AI Incident Database](https://incidentdatabase.ai/)
+* [OWASP Top 10 for LLMs](https://owasp.org/www-project-top-10-for-large-language-model-applications/)
 
 ## Security tools and techniques
 ### API probing
