@@ -53,6 +53,13 @@ Backdoors/neural trojans (same as for non-ML systems), adversarial evasion (pert
 * [Model spinning attacks](https://arxiv.org/abs/2107.10443) (meta backdoors) - forcing a model to produce output that adheres to a meta task (for ex. making a general LLM produce propaganda)
 * [Sleeper agent](https://huggingface.co/yifever/sleeper-agent)
 * Prompt injection (not really an attack) - craft an input that makes a model bypass its current “safety” measures
+  
+##### Prompt Injection 
+* [Securing LLM Systems Against Prompt Injection](https://developer.nvidia.com/blog/securing-llm-systems-against-prompt-injection/) (and [NeMo-Guardrails Security Guidelines](https://github.com/NVIDIA/NeMo-Guardrails/blob/main/docs/security/guidelines.md))
+* [LLM Censorship: A Machine Learning Challenge or a Computer Security Problem?](https://arxiv.org/abs/2307.10719)
+* CTFs: [GPT Prompt Attack](https://gpa.43z.one/); [Merlin’s Defense. GPT-4 Prompt Attack CTF](http://mcaledonensis.blog/merlins-defense/); [Gandalf](https://gandalf.lakera.ai/)
+* [Garak: LLM Scanner](https://github.com/leondz/garak/)
+* [Compromising Real-World LLM-Integrated Applications with Indirect Prompt Injection](https://arxiv.org/abs/2302.12173)
 
 #### Availability
 * [Energy-latency attacks](https://arxiv.org/abs/2006.03463) - denial of service for neural networks 
