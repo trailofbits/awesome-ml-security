@@ -1,6 +1,7 @@
 This is a survey of recent prompt engineering research. Tips and tricks have been extracted from relevant works. Each of these techniques should be taken with a grain of salt as it may not generalize to the chosen task, model, or settings.
 
 ### General advice
+- [Everything I'll forget about prompting LLMs](https://olickel.com/everything-i-know-about-prompting-llms)
 
 - [Prompt Programming for Large Language Models: Beyond the Few-Shot Paradigm](https://arxiv.org/abs/2102.07350) 
     - "Use declarative and direct signifiers for tasks such as translate or rephrase this paragraph so that a 2nd grader can understand it.
