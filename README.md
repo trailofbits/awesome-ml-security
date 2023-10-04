@@ -57,6 +57,7 @@ Backdoors/neural trojans (same as for non-ML systems), adversarial evasion (pert
 ##### Prompt Injection 
 * [Securing LLM Systems Against Prompt Injection](https://developer.nvidia.com/blog/securing-llm-systems-against-prompt-injection/) (and [NeMo-Guardrails Security Guidelines](https://github.com/NVIDIA/NeMo-Guardrails/blob/main/docs/security/guidelines.md))
 * [LLM Censorship: A Machine Learning Challenge or a Computer Security Problem?](https://arxiv.org/abs/2307.10719)
+* [PIPE - Prompt Injection Primer for Engineers](https://github.com/jthack/PIPE)
 * CTFs: [GPT Prompt Attack](https://gpa.43z.one/); [Merlin’s Defense. GPT-4 Prompt Attack CTF](http://mcaledonensis.blog/merlins-defense/); [Gandalf](https://gandalf.lakera.ai/)
 * [Garak: LLM Scanner](https://github.com/leondz/garak/)
 * [Compromising Real-World LLM-Integrated Applications with Indirect Prompt Injection](https://arxiv.org/abs/2302.12173)
@@ -77,6 +78,7 @@ Backdoors/neural trojans (same as for non-ML systems), adversarial evasion (pert
 * [Weaponizing Machine Learning Models with Ransomware](https://hiddenlayer.com/research/weaponizing-machine-learning-models-with-ransomware/) (and [Machine Learning Threat Roundup](https://hiddenlayer.com/research/machine-learning-threat-roundup/)) 
 * [Hacking AI: System and Cloud Takeover via MLflow Exploit](https://protectai.com/blog/hacking-ai-system-takeover-exploit-in-mlflow) 
 * [Trail of Bits's Audit of the Safetensors Library](https://github.com/trailofbits/publications/blob/master/reviews/2023-03-eleutherai-huggingface-safetensors-securityreview.pdf)
+* [Bug Characterization in Machine Learning-based Systems](https://arxiv.org/abs/2307.14512)
 
 ### AI’s effect on attacks/security elsewhere
 * [How AI will affect cybersecurity: What we told the CFTC](https://blog.trailofbits.com/2023/07/31/how-ai-will-affect-cybersecurity-what-we-told-the-cftc/)
