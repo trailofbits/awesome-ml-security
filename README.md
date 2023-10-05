@@ -41,6 +41,7 @@ Membership attacks, model inversion attacks, model extraction, adversarial pertu
 Reconstruction (model inversion; attribute inference; gradient and information leakage), theft of data, Membership inference and reidentification of data, Model extraction (model theft), property inference (leakage of dataset properties), etc.
 * [awesome-ml-privacy-attacks](https://github.com/stratosphereips/awesome-ml-privacy-attacks)
 * [Privacy Side Channels in Machine Learning Systems](https://arxiv.org/abs/2309.05610#:~:text=Most%20current%20approaches%20for%20protecting,%2C%20output%20monitoring%2C%20and%20more)
+* [Beyond Labeling Oracles: What does it mean to steal ML models?](https://arxiv.org/abs/2310.01959)
 
 #### Integrity 
 Backdoors/neural trojans (same as for non-ML systems), adversarial evasion (perturbation of an input to evade a certain classification or output), data poisoning and ordering (providing malicious data or changing the order of the data flow into an ML model). 
@@ -57,6 +58,7 @@ Backdoors/neural trojans (same as for non-ML systems), adversarial evasion (pert
 ##### Prompt Injection 
 * [Securing LLM Systems Against Prompt Injection](https://developer.nvidia.com/blog/securing-llm-systems-against-prompt-injection/) (and [NeMo-Guardrails Security Guidelines](https://github.com/NVIDIA/NeMo-Guardrails/blob/main/docs/security/guidelines.md))
 * [LLM Censorship: A Machine Learning Challenge or a Computer Security Problem?](https://arxiv.org/abs/2307.10719)
+* [PIPE - Prompt Injection Primer for Engineers](https://github.com/jthack/PIPE)
 * CTFs: [GPT Prompt Attack](https://gpa.43z.one/); [Merlin’s Defense. GPT-4 Prompt Attack CTF](http://mcaledonensis.blog/merlins-defense/); [Gandalf](https://gandalf.lakera.ai/)
 * [Garak: LLM Scanner](https://github.com/leondz/garak/)
 * [Compromising Real-World LLM-Integrated Applications with Indirect Prompt Injection](https://arxiv.org/abs/2302.12173)
@@ -77,6 +79,7 @@ Backdoors/neural trojans (same as for non-ML systems), adversarial evasion (pert
 * [Weaponizing Machine Learning Models with Ransomware](https://hiddenlayer.com/research/weaponizing-machine-learning-models-with-ransomware/) (and [Machine Learning Threat Roundup](https://hiddenlayer.com/research/machine-learning-threat-roundup/)) 
 * [Hacking AI: System and Cloud Takeover via MLflow Exploit](https://protectai.com/blog/hacking-ai-system-takeover-exploit-in-mlflow) 
 * [Trail of Bits's Audit of the Safetensors Library](https://github.com/trailofbits/publications/blob/master/reviews/2023-03-eleutherai-huggingface-safetensors-securityreview.pdf)
+* [Bug Characterization in Machine Learning-based Systems](https://arxiv.org/abs/2307.14512)
 
 ### AI’s effect on attacks/security elsewhere
 * [How AI will affect cybersecurity: What we told the CFTC](https://blog.trailofbits.com/2023/07/31/how-ai-will-affect-cybersecurity-what-we-told-the-cftc/)
@@ -114,7 +117,8 @@ Backdoors/neural trojans (same as for non-ML systems), adversarial evasion (pert
 ## Taxonomies and frameworks
 * [NIST AI 100-2e2023](https://csrc.nist.gov/publications/detail/white-paper/2023/03/08/adversarial-machine-learning-taxonomy-and-terminology/draft)
 * [MITRE ATLAS](https://atlas.mitre.org/) 
-* [AI Incident Database](https://incidentdatabase.ai/) 
+* [AI Incident Database](https://incidentdatabase.ai/)
+* [OWASP Top 10 for LLMs](https://owasp.org/www-project-top-10-for-large-language-model-applications/)
 
 ## Security tools and techniques
 ### API probing
@@ -134,6 +138,10 @@ Backdoors/neural trojans (same as for non-ML systems), adversarial evasion (pert
 ## Background information
 * [Machine Learning Glossary | Google Developers](https://developers.google.com/machine-learning/glossary)
 * [Hugging Face NLP course](https://huggingface.co/learn/nlp-course/chapter1/1)
+* [Making Large Language Models work for you](https://simonwillison.net/2023/Aug/27/wordcamp-llms/)
+* [Neural Networks: Zero to Hero](https://www.youtube.com/watch?v=VMj-3S1tku0&list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ)
+* [Normcore LLM Reading List](https://gist.github.com/veekaybee/be375ab33085102f9027853128dc5f0e) especially [Building LLM applications for production](https://huyenchip.com/2023/04/11/llm-engineering.html)
+* [3blue1brown's Guide to Neural Networks](https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi)
 * Licensing:
   * [From RAIL to Open RAIL: Topologies of RAIL Licenses](https://www.licenses.ai/blog/2022/8/18/naming-convention-of-responsible-ai-licenses)
   * [Hugging Face - OpenRAIL ](https://huggingface.co/blog/open_rail)
@@ -158,6 +166,7 @@ Backdoors/neural trojans (same as for non-ML systems), adversarial evasion (pert
 | [OpenAI- first message of a newly-created conversation was visible in someone else’s chat history](https://openai.com/blog/march-20-chatgpt-outage) | [Cache - Redis Async I/O](https://github.com/redis/redis-py/issues/2624) | Reputational |
 | [OpenAI- ChatGPT's new Browser SDK was using some relatively recently known-vulnerable code (specifically MinIO CVE-2023-28432)](https://twitter.com/Andrew___Morris/status/1639325397241278464) | [Security vulnerability resulting in information disclosure of all environment variables, including MINIO_SECRET_KEY and MINIO_ROOT_PASSWORD.](https://www.greynoise.io/blog/openai-minio-and-why-you-should-always-use-docker-cli-scan-to-keep-your-supply-chain-clean) | Reputational              |
 | ML Flow | [Protect AI tested the security of MLflow and found a combined Local File Inclusion/Remote File Inclusion vulnerability which can lead to a complete system or cloud provider takeover.](https://protectai.com/blog/hacking-ai-system-takeover-exploit-in-mlflow) | Monetary and Reputational |
+| [Microsoft AI Data Leak](https://www.wiz.io/blog/38-terabytes-of-private-data-accidentally-exposed-by-microsoft-ai-researchers) | SAS token misconfiguration |
 
 ## Notable harms
 | **Incident** | **Type** | **Loss** |
