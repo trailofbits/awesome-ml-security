@@ -45,7 +45,7 @@ Reconstruction (model inversion; attribute inference; gradient and information l
 
 #### Integrity 
 Backdoors/neural trojans (same as for non-ML systems), adversarial evasion (perturbation of an input to evade a certain classification or output), data poisoning and ordering (providing malicious data or changing the order of the data flow into an ML model). 
-* [Adversarial Machine Learning: A Systematic Survey of Backdoor Attack, Weight Attack and Adversarial Examples](https://arxiv.org/abs/2302.09457)
+* [A Systematic Survey of Backdoor Attack, Weight Attack and Adversarial Examples](https://arxiv.org/abs/2302.09457)
 * [Poisoning Web-Scale Training Datasets is Practical](https://arxiv.org/abs/2302.10149)
 * [Planting Undetectable Backdoors in Machine Learning Models](https://arxiv.org/abs/2204.06974)
 * [Motivating the Rules of the Game for Adversarial Example Research](https://arxiv.org/abs/1807.06732)
