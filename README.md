@@ -67,18 +67,19 @@ Backdoors/neural trojans (same as for non-ML systems), adversarial evasion (pert
 * [Energy-latency attacks](https://arxiv.org/abs/2006.03463) - denial of service for neural networks 
 
 ### Degraded model performance
+* [Trail of Bits's Audit of YOLOv7](https://blog.trailofbits.com/2023/11/15/assessing-the-security-posture-of-a-widely-used-vision-model-yolov7/)
 * [Robustness Testing of Autonomy Software](https://users.ece.cmu.edu/~koopman/pubs/hutchison18_icse_robustness_testing_autonomy_software.pdf)
 * [Can robot navigation bugs be found in simulation? An exploratory study](https://hal.science/hal-01534235/file/PID4832685.pdf)
 * [Bugs can optimize for bad behavior (OpenAI GPT-2)](https://openai.com/research/fine-tuning-gpt-2)
 * [You Only Look Once Run time errors](https://www.york.ac.uk/assuring-autonomy/guidance/body-of-knowledge/implementation/2-3/2-3-3/cross-domain-automotive/)
 
 ### ML-Ops
+* [Trail of Bits's Audit of the Safetensors Library](https://github.com/trailofbits/publications/blob/master/reviews/2023-03-eleutherai-huggingface-safetensors-securityreview.pdf)
 * [Facebook’s LLAMA being openly distributed via torrents](https://news.ycombinator.com/item?id=35007978)
 * [Summoning Demons: The Pursuit of Exploitable Bugs in Machine Learning](https://arxiv.org/abs/1701.04739) 
 * [DeepPayload: Black-box Backdoor Attack on Deep Learning Models through Neural Payload Injection](https://arxiv.org/abs/2101.06896) 
 * [Weaponizing Machine Learning Models with Ransomware](https://hiddenlayer.com/research/weaponizing-machine-learning-models-with-ransomware/) (and [Machine Learning Threat Roundup](https://hiddenlayer.com/research/machine-learning-threat-roundup/)) 
 * [Hacking AI: System and Cloud Takeover via MLflow Exploit](https://protectai.com/blog/hacking-ai-system-takeover-exploit-in-mlflow) 
-* [Trail of Bits's Audit of the Safetensors Library](https://github.com/trailofbits/publications/blob/master/reviews/2023-03-eleutherai-huggingface-safetensors-securityreview.pdf)
 * [Bug Characterization in Machine Learning-based Systems](https://arxiv.org/abs/2307.14512)
 
 ### AI’s effect on attacks/security elsewhere
@@ -101,9 +102,15 @@ Backdoors/neural trojans (same as for non-ML systems), adversarial evasion (pert
 * [FAA - Unmanned Aircraft Vehicles](https://www.faa.gov/regulations_policies/rulemaking/committees/documents/index.cfm/committee/browse/committeeID/837)
 * [NHTSA - Automated Vehicle safety](https://www.nhtsa.gov/technology-innovation/automated-vehicles-safety)
 * [AI Bill of Rights](https://www.whitehouse.gov/ostp/ai-bill-of-rights/)
+* [Executive Order on Safe, Secure, and Trustworthy Artificial Intelligence](https://www.whitehouse.gov/briefing-room/statements-releases/2023/10/30/fact-sheet-president-biden-issues-executive-order-on-safe-secure-and-trustworthy-artificial-intelligence/#:~:text=With%20this%20Executive%20Order%2C%20the,information%20with%20the%20U.S.%20government.)
 
 ### EU
-- [The Artificial Intelligence Act](https://artificialintelligenceact.eu/) (proposed)
+* [The Artificial Intelligence Act](https://artificialintelligenceact.eu/) (proposed)
+
+### Other 
+* [TIME Ideas: How AI Can Be Regulated Like Nuclear Energy](https://time.com/6327635/ai-needs-to-be-regulated-like-nuclear-weapons/)
+* [Trail of Bits’s Response to OSTP National Priorities for AI RFI](https://blog.trailofbits.com/2023/07/18/trail-of-bitss-response-to-ostp-national-priorities-for-ai-rfi/)
+* [Trail of Bits’s Response to NTIA AI Accountability RFC](https://blog.trailofbits.com/2023/07/18/trail-of-bitss-response-to-ostp-national-priorities-for-ai-rfi/)
 
 ## Safety standards
 * [Toward Comprehensive Risk Assessments and Assurance of AI-Based Systems](https://blog.trailofbits.com/2023/03/14/ai-security-safety-audit-assurance-heidy-khlaaf-odd/)
