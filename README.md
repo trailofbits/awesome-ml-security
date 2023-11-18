@@ -135,6 +135,9 @@ Backdoors/neural trojans (same as for non-ML systems), adversarial evasion (pert
 * [EscalateGPT](https://github.com/tenable/EscalateGPT)
 * [BurpGPT](https://github.com/tenable/Burp-extension-for-GPT#burpgpt)
 
+### Other 
+* [Watermarks in the Sand: Impossibility of Strong Watermarking for Generative Models](https://arxiv.org/abs/2311.04378)
+
 ## Background information
 * [Machine Learning Glossary | Google Developers](https://developers.google.com/machine-learning/glossary)
 * [Hugging Face NLP course](https://huggingface.co/learn/nlp-course/chapter1/1)
