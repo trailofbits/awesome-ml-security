@@ -53,14 +53,10 @@ Backdoors/neural trojans (same as for non-ML systems), adversarial evasion (pert
 * [Manipulating SGD with Data Ordering Attacks](https://arxiv.org/abs/2104.09667)
 * [Adversarial reprogramming](https://arxiv.org/abs/1806.11146) - repurposing a model for a different task than its original intended purpose 
 * [Model spinning attacks](https://arxiv.org/abs/2107.10443) (meta backdoors) - forcing a model to produce output that adheres to a meta task (for ex. making a general LLM produce propaganda)
-* Prompt injection (not really an attack) - craft an input that makes a model bypass its current “safety” measures
-  
-##### Prompt Injection 
-* [Securing LLM Systems Against Prompt Injection](https://developer.nvidia.com/blog/securing-llm-systems-against-prompt-injection/) (and [NeMo-Guardrails Security Guidelines](https://github.com/NVIDIA/NeMo-Guardrails/blob/main/docs/security/guidelines.md))
 * [LLM Censorship: A Machine Learning Challenge or a Computer Security Problem?](https://arxiv.org/abs/2307.10719)
-* [PIPE - Prompt Injection Primer for Engineers](https://github.com/jthack/PIPE)
-* [Compromising Real-World LLM-Integrated Applications with Indirect Prompt Injection](https://arxiv.org/abs/2302.12173)
-
+* [Securing LLM Systems Against Prompt Injection](https://developer.nvidia.com/blog/securing-llm-systems-against-prompt-injection/) & [Mitigating Stored Prompt Injection Attacks Against LLM Applications](https://developer.nvidia.com/blog/mitigating-stored-prompt-injection-attacks-against-llm-applications/)
+  * [Best Practices for Securing LLM-Enabled Applications](https://developer.nvidia.com/blog/best-practices-for-securing-llm-enabled-applications/)
+  
 #### Availability
 * [Energy-latency attacks](https://arxiv.org/abs/2006.03463) - denial of service for neural networks 
 
@@ -134,12 +130,8 @@ Backdoors/neural trojans (same as for non-ML systems), adversarial evasion (pert
 * [Semgrep rules for ML](https://blog.trailofbits.com/2022/10/03/semgrep-maching-learning-static-analysis/) 
 * [API Rate Limiting](https://platform.openai.com/docs/guides/rate-limits/overview)
 
-### AI's impact on security tools and techniques 
-* [Awesome Large Language Model Tools for Cybersecurity Research](https://github.com/tenable/awesome-llm-cybersecurity-tools)
-* [EscalateGPT](https://github.com/tenable/EscalateGPT)
-* [BurpGPT](https://github.com/tenable/Burp-extension-for-GPT#burpgpt)
-
 ### Other 
+* [Awesome Large Language Model Tools for Cybersecurity Research](https://github.com/tenable/awesome-llm-cybersecurity-tools)
 * [Watermarks in the Sand: Impossibility of Strong Watermarking for Generative Models](https://arxiv.org/abs/2311.04378)
 
 ## Background information
