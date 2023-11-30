@@ -43,6 +43,7 @@ Reconstruction (model inversion; attribute inference; gradient and information l
 * [Privacy Side Channels in Machine Learning Systems](https://arxiv.org/abs/2309.05610#:~:text=Most%20current%20approaches%20for%20protecting,%2C%20output%20monitoring%2C%20and%20more)
 * [Beyond Labeling Oracles: What does it mean to steal ML models?](https://arxiv.org/abs/2310.01959)
 * [Text Embeddings Reveal (Almost) As Much As Text](https://arxiv.org/abs/2310.06816?ref=upstract.com)
+* [Language Model Inversion](https://arxiv.org/abs/2311.13647)
 * [Extracting Training Data from ChatGPT](https://not-just-memorization.github.io/extracting-training-data-from-chatgpt.html)
 
 #### Integrity 
