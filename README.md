@@ -140,7 +140,7 @@ Backdoors/neural trojans (same as for non-ML systems), adversarial evasion (pert
 * [Machine Learning Glossary | Google Developers](https://developers.google.com/machine-learning/glossary)
 * [Hugging Face NLP course](https://huggingface.co/learn/nlp-course/chapter1/1)
 * [Making Large Language Models work for you](https://simonwillison.net/2023/Aug/27/wordcamp-llms/)
-* [Neural Networks: Zero to Hero](https://www.youtube.com/watch?v=VMj-3S1tku0&list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ)
+* [Andrej Karpathy's Intro to Large Language Models](https://www.youtube.com/watch?v=zjkBMFhNj_g) and [Neural Networks: Zero to Hero](https://www.youtube.com/watch?v=VMj-3S1tku0&list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ)
 * [Normcore LLM Reading List](https://gist.github.com/veekaybee/be375ab33085102f9027853128dc5f0e) especially [Building LLM applications for production](https://huyenchip.com/2023/04/11/llm-engineering.html)
 * [3blue1brown's Guide to Neural Networks](https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi)
 * Licensing:
