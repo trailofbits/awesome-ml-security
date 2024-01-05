@@ -53,6 +53,8 @@ Backdoors/neural trojans (same as for non-ML systems), adversarial evasion (pert
 * [Planting Undetectable Backdoors in Machine Learning Models](https://arxiv.org/abs/2204.06974)
 * [Motivating the Rules of the Game for Adversarial Example Research](https://arxiv.org/abs/1807.06732)
 * [On Evaluating Adversarial Robustness](https://arxiv.org/abs/1902.06705)
+* [Tree of Attacks: Jailbreaking Black-Box LLMs Automatically](https://arxiv.org/abs/2312.02119)
+* [Universal and Transferable Adversarial Attacks on Aligned Language Models](https://llm-attacks.org/)
 * [Manipulating SGD with Data Ordering Attacks](https://arxiv.org/abs/2104.09667)
 * [Adversarial reprogramming](https://arxiv.org/abs/1806.11146) - repurposing a model for a different task than its original intended purpose 
 * [Model spinning attacks](https://arxiv.org/abs/2107.10443) (meta backdoors) - forcing a model to produce output that adheres to a meta task (for ex. making a general LLM produce propaganda)
