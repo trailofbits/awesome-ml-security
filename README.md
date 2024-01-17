@@ -79,6 +79,7 @@ Backdoors/neural trojans (same as for non-ML systems), adversarial evasion (pert
 * [DeepPayload: Black-box Backdoor Attack on Deep Learning Models through Neural Payload Injection](https://arxiv.org/abs/2101.06896) 
 * [Weaponizing Machine Learning Models with Ransomware](https://hiddenlayer.com/research/weaponizing-machine-learning-models-with-ransomware/) (and [Machine Learning Threat Roundup](https://hiddenlayer.com/research/machine-learning-threat-roundup/)) 
 * [Bug Characterization in Machine Learning-based Systems](https://arxiv.org/abs/2307.14512)
+* [LeftoverLocals: Listening to LLM responses through leaked GPU local memory](https://blog.trailofbits.com/2024/01/16/leftoverlocals-listening-to-llm-responses-through-leaked-gpu-local-memory/)
 
 ### AI’s effect on attacks/security elsewhere
 * [How AI will affect cybersecurity: What we told the CFTC](https://blog.trailofbits.com/2023/07/31/how-ai-will-affect-cybersecurity-what-we-told-the-cftc/)
@@ -170,6 +171,7 @@ Backdoors/neural trojans (same as for non-ML systems), adversarial evasion (pert
 | [OpenAI- first message of a newly-created conversation was visible in someone else’s chat history](https://openai.com/blog/march-20-chatgpt-outage) | [Cache - Redis Async I/O](https://github.com/redis/redis-py/issues/2624) | Reputational |
 | [OpenAI- ChatGPT's new Browser SDK was using some relatively recently known-vulnerable code (specifically MinIO CVE-2023-28432)](https://twitter.com/Andrew___Morris/status/1639325397241278464) | [Security vulnerability resulting in information disclosure of all environment variables, including MINIO_SECRET_KEY and MINIO_ROOT_PASSWORD.](https://www.greynoise.io/blog/openai-minio-and-why-you-should-always-use-docker-cli-scan-to-keep-your-supply-chain-clean) | Reputational              |
 | ML Flow | [MLFlow - combined Local File Inclusion/Remote File Inclusion vulnerability which can lead to a complete system or cloud provider takeover.](https://protectai.com/blog/hacking-ai-system-takeover-exploit-in-mlflow) | Monetary and Reputational |
+| [HuggingFace Spaces - Rubika](https://hiddenlayer.com/research/crossing-the-rubika-the-use-and-abuse-of-ai-cloud-services/) | System misuse |
 | [Microsoft AI Data Leak](https://www.wiz.io/blog/38-terabytes-of-private-data-accidentally-exposed-by-microsoft-ai-researchers) | SAS token misconfiguration |
 | [HuggingFace Hub- Takeover of the Meta and Intel organizations](https://twitter.com/huggingface/status/1675242955962032129) | Password Reuse |
 | [HuggingFace API token exposure](https://twitter.com/huggingface/status/1675242955962032129) | API token exposure | 
