@@ -125,6 +125,7 @@ Backdoors/neural trojans (same as for non-ML systems), adversarial evasion (pert
 * [MITRE ATLAS](https://atlas.mitre.org/) 
 * [AI Incident Database](https://incidentdatabase.ai/)
 * [OWASP Top 10 for LLMs](https://owasp.org/www-project-top-10-for-large-language-model-applications/)
+* [Guidelines for secure AI system development](https://www.ncsc.gov.uk/files/Guidelines-for-secure-AI-system-development.pdf)
 
 ## Security tools and techniques
 ### API probing
