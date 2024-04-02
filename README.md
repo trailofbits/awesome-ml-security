@@ -176,6 +176,7 @@ Backdoors/neural trojans (same as for non-ML systems), adversarial evasion (pert
 | [Microsoft AI Data Leak](https://www.wiz.io/blog/38-terabytes-of-private-data-accidentally-exposed-by-microsoft-ai-researchers) | SAS token misconfiguration |
 | [HuggingFace Hub- Takeover of the Meta and Intel organizations](https://twitter.com/huggingface/status/1675242955962032129) | Password Reuse |
 | [HuggingFace API token exposure](https://twitter.com/huggingface/status/1675242955962032129) | API token exposure | 
+| [ShadowRay - Active Cryptominer campaign against Ray clusters](https://twitter.com/huggingface/status/1675242955962032129) | Improper authentication | Monetary and Reputational
 
 ## Notable harms
 | **Incident** | **Type** | **Loss** |
