@@ -14,7 +14,7 @@ A curated list of awesome machine learning security references, guidance, tools,
     - [ML-Ops](#ml-ops)
     - [AI’s effect on attacks/security elsewhere](#ais-effect-on-attackssecurity-elsewhere)
       - [Self-driving cars](#self-driving-cars)
-      - [LLM Alignment]
+      - [LLM Alignment](#llm-alignment)
   - [Regulatory actions](#regulatory-actions)
     - [US](#us)
     - [EU](#eu)
