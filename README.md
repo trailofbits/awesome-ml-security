@@ -14,6 +14,7 @@ A curated list of awesome machine learning security references, guidance, tools,
     - [ML-Ops](#ml-ops)
     - [AI’s effect on attacks/security elsewhere](#ais-effect-on-attackssecurity-elsewhere)
       - [Self-driving cars](#self-driving-cars)
+      - [LLM Alignment]
   - [Regulatory actions](#regulatory-actions)
     - [US](#us)
     - [EU](#eu)
@@ -93,6 +94,9 @@ Backdoors/neural trojans (same as for non-ML systems), adversarial evasion (pert
   
 #### Self-driving cars 
 * [Driving to Safety: How Many Miles of Driving Would It Take to Demonstrate Autonomous Vehicle Reliability?](https://www.rand.org/pubs/research_reports/RR1478.html)
+
+#### LLM Alignment
+* [When Your AIs Deceive You: Challenges with Partial Observability of Human Evaluators in Reward Learning](https://arxiv.org/abs/2402.17747)
 
 ## Regulatory actions
 
