@@ -46,6 +46,7 @@ Reconstruction (model inversion; attribute inference; gradient and information l
 * [Text Embeddings Reveal (Almost) As Much As Text](https://arxiv.org/abs/2310.06816?ref=upstract.com)
 * [Language Model Inversion](https://arxiv.org/abs/2311.13647)
 * [Extracting Training Data from ChatGPT](https://not-just-memorization.github.io/extracting-training-data-from-chatgpt.html)
+* [Recovering the Pre-Fine-Tuning Weights of Generative Models](https://arxiv.org/abs/2402.10208)
 
 #### Integrity 
 Backdoors/neural trojans (same as for non-ML systems), adversarial evasion (perturbation of an input to evade a certain classification or output), data poisoning and ordering (providing malicious data or changing the order of the data flow into an ML model). 
@@ -144,6 +145,7 @@ Backdoors/neural trojans (same as for non-ML systems), adversarial evasion (pert
 ### Other 
 * [Awesome Large Language Model Tools for Cybersecurity Research](https://github.com/tenable/awesome-llm-cybersecurity-tools)
 * [Watermarks in the Sand: Impossibility of Strong Watermarking for Generative Models](https://arxiv.org/abs/2311.04378)
+
 
 ## Background information
 * [Machine Learning Glossary | Google Developers](https://developers.google.com/machine-learning/glossary)
