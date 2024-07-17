@@ -24,7 +24,6 @@ A curated list of awesome machine learning security references, guidance, tools,
     - [API probing](#api-probing)
     - [Model backdoors](#model-backdoors)
   - [DeepFakes, disinformation, and abuse](#deepfakes-disinformation-and-abuse)
-    - [AI's impact on security tools and techniques](#ais-impact-on-security-tools-and-techniques)
   - [Background information](#background-information)
   - [Notable incidents](#notable-incidents)
   - [Notable harms](#notable-harms)
@@ -75,6 +74,9 @@ Backdoors/neural trojans (same as for non-ML systems), adversarial evasion (pert
 * [You Only Look Once Run time errors](https://www.york.ac.uk/assuring-autonomy/guidance/body-of-knowledge/implementation/2-3/2-3-3/cross-domain-automotive/)
 
 ### ML-Ops
+* [Auditing the Ask Astro LLM Q&A app](https://blog.trailofbits.com/2024/07/05/auditing-the-ask-astro-llm-qa-app/)
+* [Exploiting ML models with pickle file attacks: Part 1](https://blog.trailofbits.com/2024/06/11/exploiting-ml-models-with-pickle-file-attacks-part-1/) & [Exploiting ML models with pickle file attacks: Part 2](https://blog.trailofbits.com/2024/06/11/exploiting-ml-models-with-pickle-file-attacks-part-2/)
+* [PCC: Bold step forward, not without flaws](https://blog.trailofbits.com/2024/06/14/pcc-bold-step-forward-not-without-flaws/)
 * [Trail of Bits's Audit of the Safetensors Library](https://github.com/trailofbits/publications/blob/master/reviews/2023-03-eleutherai-huggingface-safetensors-securityreview.pdf)
 * [Facebook’s LLAMA being openly distributed via torrents](https://news.ycombinator.com/item?id=35007978)
 * [Summoning Demons: The Pursuit of Exploitable Bugs in Machine Learning](https://arxiv.org/abs/1701.04739) 
@@ -82,6 +84,7 @@ Backdoors/neural trojans (same as for non-ML systems), adversarial evasion (pert
 * [Weaponizing Machine Learning Models with Ransomware](https://hiddenlayer.com/research/weaponizing-machine-learning-models-with-ransomware/) (and [Machine Learning Threat Roundup](https://hiddenlayer.com/research/machine-learning-threat-roundup/)) 
 * [Bug Characterization in Machine Learning-based Systems](https://arxiv.org/abs/2307.14512)
 * [LeftoverLocals: Listening to LLM responses through leaked GPU local memory](https://blog.trailofbits.com/2024/01/16/leftoverlocals-listening-to-llm-responses-through-leaked-gpu-local-memory/)
+
 
 ### AI’s effect on attacks/security elsewhere
 * [How AI will affect cybersecurity: What we told the CFTC](https://blog.trailofbits.com/2023/07/31/how-ai-will-affect-cybersecurity-what-we-told-the-cftc/)
