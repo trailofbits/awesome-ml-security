@@ -186,6 +186,8 @@ Backdoors/neural trojans (same as for non-ML systems), adversarial evasion (pert
 | [HuggingFace Hub- Takeover of the Meta and Intel organizations](https://twitter.com/huggingface/status/1675242955962032129) | Password Reuse |
 | [HuggingFace API token exposure](https://twitter.com/huggingface/status/1675242955962032129) | API token exposure | 
 | [ShadowRay - Active Cryptominer campaign against Ray clusters](https://twitter.com/huggingface/status/1675242955962032129) | Improper authentication | Monetary and Reputational
+| [Nullbudge attacks on ML supply chain](https://www.sentinelone.com/labs/nullbulge-threat-actor-masquerades-as-hacktivist-group-rebelling-against-ai/) |  Supply chain compromise | Monetary and Reputational
+| | | 
 
 ## Notable harms
 | **Incident** | **Type** | **Loss** |
