@@ -62,6 +62,7 @@ Backdoors/neural trojans (same as for non-ML systems), adversarial evasion (pert
 * [LLM Censorship: A Machine Learning Challenge or a Computer Security Problem?](https://arxiv.org/abs/2307.10719)
 * [Securing LLM Systems Against Prompt Injection](https://developer.nvidia.com/blog/securing-llm-systems-against-prompt-injection/) & [Mitigating Stored Prompt Injection Attacks Against LLM Applications](https://developer.nvidia.com/blog/mitigating-stored-prompt-injection-attacks-against-llm-applications/)
   * [Best Practices for Securing LLM-Enabled Applications](https://developer.nvidia.com/blog/best-practices-for-securing-llm-enabled-applications/)
+  * [NVIDIA NeMo Guardrails: Security Guidelines](https://docs.nvidia.com/nemo/guardrails/security/guidelines.html)
   
 #### Availability
 * [Energy-latency attacks](https://arxiv.org/abs/2006.03463) - denial of service for neural networks 
