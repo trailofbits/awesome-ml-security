@@ -152,6 +152,7 @@ Backdoors/neural trojans (same as for non-ML systems), adversarial evasion (pert
 
 
 ## Background information
+* [Building A Generative AI Platform (Chip Huyen)](https://huyenchip.com/2024/07/25/genai-platform.html)
 * [Machine Learning Glossary | Google Developers](https://developers.google.com/machine-learning/glossary)
 * [Hugging Face NLP course](https://huggingface.co/learn/nlp-course/chapter1/1)
 * [Making Large Language Models work for you](https://simonwillison.net/2023/Aug/27/wordcamp-llms/)
