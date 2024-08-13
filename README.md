@@ -85,6 +85,7 @@ Backdoors/neural trojans (same as for non-ML systems), adversarial evasion (pert
 * [Weaponizing Machine Learning Models with Ransomware](https://hiddenlayer.com/research/weaponizing-machine-learning-models-with-ransomware/) (and [Machine Learning Threat Roundup](https://hiddenlayer.com/research/machine-learning-threat-roundup/)) 
 * [Bug Characterization in Machine Learning-based Systems](https://arxiv.org/abs/2307.14512)
 * [LeftoverLocals: Listening to LLM responses through leaked GPU local memory](https://blog.trailofbits.com/2024/01/16/leftoverlocals-listening-to-llm-responses-through-leaked-gpu-local-memory/)
+* [Offensive ML Playbook](https://wiki.offsecml.com/Welcome+to+the+Offensive+ML+Playbook)
 
 
 ### AI’s effect on attacks/security elsewhere
