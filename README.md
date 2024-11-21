@@ -75,6 +75,7 @@ Backdoors/neural trojans (same as for non-ML systems), adversarial evasion (pert
 * [You Only Look Once Run time errors](https://www.york.ac.uk/assuring-autonomy/guidance/body-of-knowledge/implementation/2-3/2-3-3/cross-domain-automotive/)
 
 ### ML-Ops
+* [Incubated ML Exploits: Backdooring ML Pipelines using Input-Handling Bugs](https://www.youtube.com/watch?v=Z38pTFM0FyU)
 * [Auditing the Ask Astro LLM Q&A app](https://blog.trailofbits.com/2024/07/05/auditing-the-ask-astro-llm-qa-app/)
 * [Exploiting ML models with pickle file attacks: Part 1](https://blog.trailofbits.com/2024/06/11/exploiting-ml-models-with-pickle-file-attacks-part-1/) & [Exploiting ML models with pickle file attacks: Part 2](https://blog.trailofbits.com/2024/06/11/exploiting-ml-models-with-pickle-file-attacks-part-2/)
 * [PCC: Bold step forward, not without flaws](https://blog.trailofbits.com/2024/06/14/pcc-bold-step-forward-not-without-flaws/)
