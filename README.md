@@ -63,6 +63,12 @@ Backdoors/neural trojans (same as for non-ML systems), adversarial evasion (pert
 * [Securing LLM Systems Against Prompt Injection](https://developer.nvidia.com/blog/securing-llm-systems-against-prompt-injection/) & [Mitigating Stored Prompt Injection Attacks Against LLM Applications](https://developer.nvidia.com/blog/mitigating-stored-prompt-injection-attacks-against-llm-applications/)
   * [Best Practices for Securing LLM-Enabled Applications](https://developer.nvidia.com/blog/best-practices-for-securing-llm-enabled-applications/)
   * [NVIDIA NeMo Guardrails: Security Guidelines](https://docs.nvidia.com/nemo/guardrails/security/guidelines.html)
+* [Multi-Agent Systems Execute Arbitrary Malicious Code](https://arxiv.org/abs/2503.12188)
+* [Agentic Autonomy Levels and Security](https://developer.nvidia.com/blog/agentic-autonomy-levels-and-security/)
+* [Rerouting LLM Routers](https://arxiv.org/abs/2501.01818)
+* [Defeating Prompt Injections by Design](https://arxiv.org/abs/2503.18813)
+* [Arcanum Prompt Injection Taxonomy](https://github.com/Arcanum-Sec/arc_pi_taxonomy)
+
   
 #### Availability
 * [Energy-latency attacks](https://arxiv.org/abs/2006.03463) - denial of service for neural networks 
@@ -87,6 +93,7 @@ Backdoors/neural trojans (same as for non-ML systems), adversarial evasion (pert
 * [Bug Characterization in Machine Learning-based Systems](https://arxiv.org/abs/2307.14512)
 * [LeftoverLocals: Listening to LLM responses through leaked GPU local memory](https://blog.trailofbits.com/2024/01/16/leftoverlocals-listening-to-llm-responses-through-leaked-gpu-local-memory/)
 * [Offensive ML Playbook](https://wiki.offsecml.com/Welcome+to+the+Offensive+ML+Playbook)
+* [MCP security briefing](https://www.wiz.io/blog/mcp-security-research-briefing)
 
 
 ### AI’s effect on attacks/security elsewhere
@@ -141,7 +148,8 @@ Backdoors/neural trojans (same as for non-ML systems), adversarial evasion (pert
 ## Security tools and techniques
 ### API probing
 * [PrivacyRaven](https://github.com/trailofbits/PrivacyRaven): runs different privacy attacks against ML models; the tool only runs black-box label-only attacks
-* [Counterfit](https://github.com/Azure/counterfit): runs different adversarial ML attacks against ML models 
+* [Counterfit](https://github.com/Azure/counterfit): runs different adversarial ML attacks against ML models
+* [Garak](https://github.com/NVIDIA/garak)
 
 ### Model backdoors
 * [Fickling](https://github.com/trailofbits/fickling): a decompiler, static analyzer, and bytecode rewriter for Python pickle files; injects backdoors into ML model files
@@ -167,6 +175,10 @@ Backdoors/neural trojans (same as for non-ML systems), adversarial evasion (pert
   * [Hugging Face - AI Release Models](https://arxiv.org/abs/2302.04844)
   * [Open LLMs](https://github.com/eugeneyan/open-llms)
   * [Prompt Engineering Guide](https://github.com/trailofbits/awesome-ml-security/blob/main/prompt-engineering.md)
+* [How to Build an Agent](https://ampcode.com/how-to-build-an-agent)
+* [Building effective agents](https://www.anthropic.com/engineering/building-effective-agents)
+* [Chip Huyen on Agents](https://huyenchip.com/2025/01/07/agents.html)
+
 
 ## DeepFakes, disinformation, and abuse
 * [How to Prepare for the Deluge of Generative AI on Social Media](https://knightcolumbia.org/content/how-to-prepare-for-the-deluge-of-generative-ai-on-social-media)
