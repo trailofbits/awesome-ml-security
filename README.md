@@ -18,13 +18,15 @@ A curated list of awesome machine learning security references, guidance, tools,
   - [Regulatory actions](#regulatory-actions)
     - [US](#us)
     - [EU](#eu)
+    - [Other](#other)
   - [Safety standards](#safety-standards)
   - [Taxonomies and frameworks](#taxonomies-and-frameworks)
   - [Security tools and techniques](#security-tools-and-techniques)
     - [API probing](#api-probing)
     - [Model backdoors](#model-backdoors)
-  - [DeepFakes, disinformation, and abuse](#deepfakes-disinformation-and-abuse)
+    - [Other](#other-1)
   - [Background information](#background-information)
+  - [DeepFakes, disinformation, and abuse](#deepfakes-disinformation-and-abuse)
   - [Notable incidents](#notable-incidents)
   - [Notable harms](#notable-harms)
 
@@ -47,8 +49,8 @@ Reconstruction (model inversion; attribute inference; gradient and information l
 * [Extracting Training Data from ChatGPT](https://not-just-memorization.github.io/extracting-training-data-from-chatgpt.html)
 * [Recovering the Pre-Fine-Tuning Weights of Generative Models](https://arxiv.org/abs/2402.10208)
 
-#### Integrity 
-Backdoors/neural trojans (same as for non-ML systems), adversarial evasion (perturbation of an input to evade a certain classification or output), data poisoning and ordering (providing malicious data or changing the order of the data flow into an ML model). 
+#### Integrity
+Backdoors/neural trojans (same as for non-ML systems), adversarial evasion (perturbation of an input to evade a certain classification or output), data poisoning and ordering (providing malicious data or changing the order of the data flow into an ML model).
 * [A Systematic Survey of Backdoor Attack, Weight Attack and Adversarial Examples](https://arxiv.org/abs/2302.09457)
 * [Poisoning Web-Scale Training Datasets is Practical](https://arxiv.org/abs/2302.10149)
 * [Planting Undetectable Backdoors in Machine Learning Models](https://arxiv.org/abs/2204.06974)
@@ -57,7 +59,7 @@ Backdoors/neural trojans (same as for non-ML systems), adversarial evasion (pert
 * [Tree of Attacks: Jailbreaking Black-Box LLMs Automatically](https://arxiv.org/abs/2312.02119)
 * [Universal and Transferable Adversarial Attacks on Aligned Language Models](https://llm-attacks.org/)
 * [Manipulating SGD with Data Ordering Attacks](https://arxiv.org/abs/2104.09667)
-* [Adversarial reprogramming](https://arxiv.org/abs/1806.11146) - repurposing a model for a different task than its original intended purpose 
+* [Adversarial reprogramming](https://arxiv.org/abs/1806.11146) - repurposing a model for a different task than its original intended purpose
 * [Model spinning attacks](https://arxiv.org/abs/2107.10443) (meta backdoors) - forcing a model to produce output that adheres to a meta task (for ex. making a general LLM produce propaganda)
 * [LLM Censorship: A Machine Learning Challenge or a Computer Security Problem?](https://arxiv.org/abs/2307.10719)
 * [Securing LLM Systems Against Prompt Injection](https://developer.nvidia.com/blog/securing-llm-systems-against-prompt-injection/) & [Mitigating Stored Prompt Injection Attacks Against LLM Applications](https://developer.nvidia.com/blog/mitigating-stored-prompt-injection-attacks-against-llm-applications/)
@@ -69,9 +71,9 @@ Backdoors/neural trojans (same as for non-ML systems), adversarial evasion (pert
 * [Defeating Prompt Injections by Design](https://arxiv.org/abs/2503.18813)
 * [Arcanum Prompt Injection Taxonomy](https://github.com/Arcanum-Sec/arc_pi_taxonomy)
 
-  
+
 #### Availability
-* [Energy-latency attacks](https://arxiv.org/abs/2006.03463) - denial of service for neural networks 
+* [Energy-latency attacks](https://arxiv.org/abs/2006.03463) - denial of service for neural networks
 
 ### Degraded model performance
 * [Trail of Bits's Audit of YOLOv7](https://blog.trailofbits.com/2023/11/15/assessing-the-security-posture-of-a-widely-used-vision-model-yolov7/)
@@ -87,9 +89,9 @@ Backdoors/neural trojans (same as for non-ML systems), adversarial evasion (pert
 * [PCC: Bold step forward, not without flaws](https://blog.trailofbits.com/2024/06/14/pcc-bold-step-forward-not-without-flaws/)
 * [Trail of Bits's Audit of the Safetensors Library](https://github.com/trailofbits/publications/blob/master/reviews/2023-03-eleutherai-huggingface-safetensors-securityreview.pdf)
 * [Facebook’s LLAMA being openly distributed via torrents](https://news.ycombinator.com/item?id=35007978)
-* [Summoning Demons: The Pursuit of Exploitable Bugs in Machine Learning](https://arxiv.org/abs/1701.04739) 
-* [DeepPayload: Black-box Backdoor Attack on Deep Learning Models through Neural Payload Injection](https://arxiv.org/abs/2101.06896) 
-* [Weaponizing Machine Learning Models with Ransomware](https://hiddenlayer.com/research/weaponizing-machine-learning-models-with-ransomware/) (and [Machine Learning Threat Roundup](https://hiddenlayer.com/research/machine-learning-threat-roundup/)) 
+* [Summoning Demons: The Pursuit of Exploitable Bugs in Machine Learning](https://arxiv.org/abs/1701.04739)
+* [DeepPayload: Black-box Backdoor Attack on Deep Learning Models through Neural Payload Injection](https://arxiv.org/abs/2101.06896)
+* [Weaponizing Machine Learning Models with Ransomware](https://hiddenlayer.com/research/weaponizing-machine-learning-models-with-ransomware/) (and [Machine Learning Threat Roundup](https://hiddenlayer.com/research/machine-learning-threat-roundup/))
 * [Bug Characterization in Machine Learning-based Systems](https://arxiv.org/abs/2307.14512)
 * [LeftoverLocals: Listening to LLM responses through leaked GPU local memory](https://blog.trailofbits.com/2024/01/16/leftoverlocals-listening-to-llm-responses-through-leaked-gpu-local-memory/)
 * [Offensive ML Playbook](https://wiki.offsecml.com/Welcome+to+the+Offensive+ML+Playbook)
@@ -99,14 +101,14 @@ Backdoors/neural trojans (same as for non-ML systems), adversarial evasion (pert
 ### AI’s effect on attacks/security elsewhere
 * [How AI will affect cybersecurity: What we told the CFTC](https://blog.trailofbits.com/2023/07/31/how-ai-will-affect-cybersecurity-what-we-told-the-cftc/)
 * [Lost at C: A User Study on the Security Implications of Large Language Model Code Assistants](https://arxiv.org/abs/2208.09727)
-* [Examining Zero-Shot Vulnerability Repair with Large Language Models](https://arxiv.org/pdf/2112.02125.pdf) 
-* [Do Users Write More Insecure Code with AI Assistants?](https://arxiv.org/pdf/2211.03622.pdf) 
-* [Learned Systems Security](https://arxiv.org/abs/2212.10318) 
+* [Examining Zero-Shot Vulnerability Repair with Large Language Models](https://arxiv.org/pdf/2112.02125.pdf)
+* [Do Users Write More Insecure Code with AI Assistants?](https://arxiv.org/pdf/2211.03622.pdf)
+* [Learned Systems Security](https://arxiv.org/abs/2212.10318)
 * [Beyond the Hype: A Real-World Evaluation of the Impact and Cost of Machine Learning-Based Malware Detection](https://arxiv.org/abs/2012.09214)
 * [Data-Driven Offense](https://player.vimeo.com/video/133292422) from Infiltrate 2015
 * [Codex (and GPT-4) can’t beat humans on smart contract audits](https://blog.trailofbits.com/2023/03/22/codex-and-gpt4-cant-beat-humans-on-smart-contract-audits/)
-  
-#### Self-driving cars 
+
+#### Self-driving cars
 * [Driving to Safety: How Many Miles of Driving Would It Take to Demonstrate Autonomous Vehicle Reliability?](https://www.rand.org/pubs/research_reports/RR1478.html)
 
 #### LLM Alignment
@@ -124,7 +126,7 @@ Backdoors/neural trojans (same as for non-ML systems), adversarial evasion (pert
 ### EU
 * [The Artificial Intelligence Act](https://artificialintelligenceact.eu/) (proposed)
 
-### Other 
+### Other
 * [TIME Ideas: How AI Can Be Regulated Like Nuclear Energy](https://time.com/6327635/ai-needs-to-be-regulated-like-nuclear-weapons/)
 * [Trail of Bits’s Response to OSTP National Priorities for AI RFI](https://blog.trailofbits.com/2023/07/18/trail-of-bitss-response-to-ostp-national-priorities-for-ai-rfi/)
 * [Trail of Bits’s Response to NTIA AI Accountability RFC](https://blog.trailofbits.com/2023/07/18/trail-of-bitss-response-to-ostp-national-priorities-for-ai-rfi/)
@@ -140,7 +142,7 @@ Backdoors/neural trojans (same as for non-ML systems), adversarial evasion (pert
 
 ## Taxonomies and frameworks
 * [NIST AI 100-2e2023](https://csrc.nist.gov/publications/detail/white-paper/2023/03/08/adversarial-machine-learning-taxonomy-and-terminology/draft)
-* [MITRE ATLAS](https://atlas.mitre.org/) 
+* [MITRE ATLAS](https://atlas.mitre.org/)
 * [AI Incident Database](https://incidentdatabase.ai/)
 * [OWASP Top 10 for LLMs](https://owasp.org/www-project-top-10-for-large-language-model-applications/)
 * [Guidelines for secure AI system development](https://www.ncsc.gov.uk/files/Guidelines-for-secure-AI-system-development.pdf)
@@ -153,10 +155,9 @@ Backdoors/neural trojans (same as for non-ML systems), adversarial evasion (pert
 
 ### Model backdoors
 * [Fickling](https://github.com/trailofbits/fickling): a decompiler, static analyzer, and bytecode rewriter for Python pickle files; injects backdoors into ML model files
-* [Semgrep rules for ML](https://blog.trailofbits.com/2022/10/03/semgrep-maching-learning-static-analysis/) 
-* [API Rate Limiting](https://platform.openai.com/docs/guides/rate-limits/overview)
+* [Semgrep rules for ML](https://blog.trailofbits.com/2022/10/03/semgrep-maching-learning-static-analysis/)
 
-### Other 
+### Other
 * [Awesome Large Language Model Tools for Cybersecurity Research](https://github.com/tenable/awesome-llm-cybersecurity-tools)
 * [Watermarks in the Sand: Impossibility of Strong Watermarking for Generative Models](https://arxiv.org/abs/2311.04378)
 
@@ -200,10 +201,10 @@ Backdoors/neural trojans (same as for non-ML systems), adversarial evasion (pert
 | [HuggingFace Spaces - Rubika](https://hiddenlayer.com/research/crossing-the-rubika-the-use-and-abuse-of-ai-cloud-services/) | System misuse |
 | [Microsoft AI Data Leak](https://www.wiz.io/blog/38-terabytes-of-private-data-accidentally-exposed-by-microsoft-ai-researchers) | SAS token misconfiguration |
 | [HuggingFace Hub- Takeover of the Meta and Intel organizations](https://twitter.com/huggingface/status/1675242955962032129) | Password Reuse |
-| [HuggingFace API token exposure](https://twitter.com/huggingface/status/1675242955962032129) | API token exposure | 
+| [HuggingFace API token exposure](https://twitter.com/huggingface/status/1675242955962032129) | API token exposure |
 | [ShadowRay - Active Cryptominer campaign against Ray clusters](https://www.oligo.security/blog/shadowray-attack-ai-workloads-actively-exploited-in-the-wild) | Improper authentication | Monetary and Reputational
 | [Nullbudge attacks on ML supply chain](https://www.sentinelone.com/labs/nullbulge-threat-actor-masquerades-as-hacktivist-group-rebelling-against-ai/) |  Supply chain compromise | Monetary and Reputational
-| | | 
+| | |
 
 ## Notable harms
 | **Incident** | **Type** | **Loss** |
