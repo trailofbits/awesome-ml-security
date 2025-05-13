@@ -114,6 +114,7 @@ This is a survey of recent prompt engineering research. Tips and tricks have bee
 - [A Systematic Evaluation of Large Language Models of Code](https://arxiv.org/abs/2202.13169) 
 - [Large Language Models Struggle to Learn Long-Tail Knowledge](https://arxiv.org/abs/2211.08411) 
 - [Do Users Write More Insecure Code with AI Assistants?](https://arxiv.org/pdf/2211.03622.pdf)
+- [A Superalignment Framework in Autonomous Driving with Large Language Models](https://arxiv.org/abs/2406.05651)
 
 ### Prompt Engineering Libraries
 
