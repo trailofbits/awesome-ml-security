@@ -155,6 +155,7 @@ Backdoors/neural trojans (same as for non-ML systems), adversarial evasion (pert
 
 ### Model backdoors
 * [Fickling](https://github.com/trailofbits/fickling): a decompiler, static analyzer, and bytecode rewriter for Python pickle files; injects backdoors into ML model files
+* [promptfoo modelaudit](https://github.com/promptfoo/promptfoo): static security scanner for ML models; detects malicious code, unsafe operations, backdoors, and serialization attacks across PyTorch, TensorFlow, Keras, ONNX, and more
 * [Semgrep rules for ML](https://blog.trailofbits.com/2022/10/03/semgrep-maching-learning-static-analysis/)
 
 ### Other
