@@ -161,6 +161,7 @@ Backdoors/neural trojans (same as for non-ML systems), adversarial evasion (pert
 ### Other
 * [Awesome Large Language Model Tools for Cybersecurity Research](https://github.com/tenable/awesome-llm-cybersecurity-tools)
 * [Watermarks in the Sand: Impossibility of Strong Watermarking for Generative Models](https://arxiv.org/abs/2311.04378)
+* [AI/ML/LLM Exploitation Challenges](https://academy.8ksec.io/course/ai-exploitation-challenges)
 
 
 ## Background information
