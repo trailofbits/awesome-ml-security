@@ -205,6 +205,7 @@ Backdoors/neural trojans (same as for non-ML systems), adversarial evasion (pert
 | [HuggingFace API token exposure](https://twitter.com/huggingface/status/1675242955962032129) | API token exposure |
 | [ShadowRay - Active Cryptominer campaign against Ray clusters](https://www.oligo.security/blog/shadowray-attack-ai-workloads-actively-exploited-in-the-wild) | Improper authentication | Monetary and Reputational
 | [Nullbudge attacks on ML supply chain](https://www.sentinelone.com/labs/nullbulge-threat-actor-masquerades-as-hacktivist-group-rebelling-against-ai/) |  Supply chain compromise | Monetary and Reputational
+| [ClawHavoc: Supply chain attack on AI agent ecosystems](https://repello.ai/blog/clawhavoc-supply-chain-attack) | Supply chain compromise | Monetary and Reputational |
 | | |
 
 ## Notable harms
