@@ -153,6 +153,7 @@ Backdoors/neural trojans (same as for non-ML systems), adversarial evasion (pert
 * [PrivacyRaven](https://github.com/trailofbits/PrivacyRaven): runs different privacy attacks against ML models; the tool only runs black-box label-only attacks
 * [Counterfit](https://github.com/Azure/counterfit): runs different adversarial ML attacks against ML models
 * [Garak](https://github.com/NVIDIA/garak)
+* [Agent-Wiz](https://github.com/Repello-AI/Agent-Wiz): Python CLI by Repello AI that extracts agentic workflows from LangChain/LangGraph/CrewAI/AutoGen and runs automated threat modeling against the resulting graphs
 
 ### Model backdoors
 * [Fickling](https://github.com/trailofbits/fickling): a decompiler, static analyzer, and bytecode rewriter for Python pickle files; injects backdoors into ML model files
