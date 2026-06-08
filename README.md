@@ -160,6 +160,7 @@ Backdoors/neural trojans (same as for non-ML systems), adversarial evasion (pert
 
 ### Other
 * [Awesome Large Language Model Tools for Cybersecurity Research](https://github.com/tenable/awesome-llm-cybersecurity-tools)
+* [TWZRD Agent Intel](https://intel.twzrd.xyz) - On-chain trust scoring for AI agent wallets on Solana. MCP server (, ) to verify agent identity before x402 micropayments. Use case: verify ML pipeline agents accessing paid feature stores or dataset APIs.
 * [Watermarks in the Sand: Impossibility of Strong Watermarking for Generative Models](https://arxiv.org/abs/2311.04378)
 
 
