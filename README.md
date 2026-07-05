@@ -180,6 +180,7 @@ Backdoors/neural trojans (same as for non-ML systems), adversarial evasion (pert
 * [How to Build an Agent](https://ampcode.com/how-to-build-an-agent)
 * [Building effective agents](https://www.anthropic.com/engineering/building-effective-agents)
 * [Chip Huyen on Agents](https://huyenchip.com/2025/01/07/agents.html)
+* [AI RiskAtlas](https://riskatlas.principle.sg) - free interactive learning lab for AI/LLM/agentic security with sourced real-world incident cases, hands-on attack-scenario simulations, and risk mappings to OWASP LLM Top 10 and MITRE ATLAS
 
 
 ## DeepFakes, disinformation, and abuse
