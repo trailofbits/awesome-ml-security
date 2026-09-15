@@ -121,10 +121,11 @@ Backdoors/neural trojans (same as for non-ML systems), adversarial evasion (pert
 * [FAA - Unmanned Aircraft Vehicles](https://www.faa.gov/regulations_policies/rulemaking/committees/documents/index.cfm/committee/browse/committeeID/837)
 * [NHTSA - Automated Vehicle safety](https://www.nhtsa.gov/technology-innovation/automated-vehicles-safety)
 * [AI Bill of Rights](https://www.whitehouse.gov/ostp/ai-bill-of-rights/)
-* [Executive Order on Safe, Secure, and Trustworthy Artificial Intelligence](https://www.whitehouse.gov/briefing-room/statements-releases/2023/10/30/fact-sheet-president-biden-issues-executive-order-on-safe-secure-and-trustworthy-artificial-intelligence/#:~:text=With%20this%20Executive%20Order%2C%20the,information%20with%20the%20U.S.%20government.)
+* [Executive Order 14110: Safe, Secure, and Trustworthy Development and Use of Artificial Intelligence](https://www.nist.gov/artificial-intelligence/executive-order-safe-secure-and-trustworthy-artificial-intelligence) (issued October 30, 2023; rescinded January 20, 2025)
+* [Executive Order 14179: Removing Barriers to American Leadership in Artificial Intelligence](https://www.whitehouse.gov/presidential-actions/2025/01/removing-barriers-to-american-leadership-in-artificial-intelligence/) (issued January 23, 2025)
 
 ### EU
-* [The Artificial Intelligence Act](https://artificialintelligenceact.eu/) (proposed)
+* [EU Artificial Intelligence Act](https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai) (entered into force August 1, 2024; applicable from August 2, 2026, with staged exceptions)
 
 ### Other
 * [TIME Ideas: How AI Can Be Regulated Like Nuclear Energy](https://time.com/6327635/ai-needs-to-be-regulated-like-nuclear-weapons/)
