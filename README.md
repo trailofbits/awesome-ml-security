@@ -147,6 +147,7 @@ Backdoors/neural trojans (same as for non-ML systems), adversarial evasion (pert
 * [OWASP Top 10 for LLMs](https://owasp.org/www-project-top-10-for-large-language-model-applications/)
 * [OWASP AI Exchange](https://owaspai.org) - comprehensive AI security guide with 300+ pages of practical guidance on protecting AI systems
 * [Guidelines for secure AI system development](https://www.ncsc.gov.uk/files/Guidelines-for-secure-AI-system-development.pdf)
+* [Orca AI Incident Archive](https://github.com/Continuum-AI-Corp/Orca-AI-Incident-Archive) - open database of AI agent security incidents (prompt injection, agent supply chain, agent-framework CVEs, rogue agents), each record sourced and labelled for confirmed harm vs. demonstration
 
 ## Security tools and techniques
 ### API probing
