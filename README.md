@@ -160,6 +160,7 @@ Backdoors/neural trojans (same as for non-ML systems), adversarial evasion (pert
 
 ### Other
 * [Awesome Large Language Model Tools for Cybersecurity Research](https://github.com/tenable/awesome-llm-cybersecurity-tools)
+* [HOL Guard](https://hol.org/guard): local-first runtime control for AI coding agents; checks shell, secrets, MCP and install calls before they run and pauses risky ones for user approval. Apache-2.0, open source.
 * [Watermarks in the Sand: Impossibility of Strong Watermarking for Generative Models](https://arxiv.org/abs/2311.04378)
 
 
